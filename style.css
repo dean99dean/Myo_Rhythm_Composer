@@ -101,27 +101,27 @@
 
 }
 
-.stop8_1 {
-    width:21px;
-    height:26px;
-    position: relative;
-    top:5px;
-    left:50px;
-    background-image: url(stop8.gif);
-    display:inline-block;
+/*.stop8_1 {*/
+    /*width:21px;*/
+    /*height:26px;*/
+    /*position: relative;*/
+    /*top:5px;*/
+    /*left:50px;*/
+    /*background-image: url(stop8.gif);*/
+    /*display:inline-block;*/
 
-}
+/*}*/
 
-.stop8_2 {
-    width:21px;
-    height:26px;
-    position: relative;
-    top:24px;
-    left:50px;
-    background-image: url(stop8.gif);
-    display:inline-block;
+/*.stop8_2 {*/
+    /*width:21px;*/
+    /*height:26px;*/
+    /*position: relative;*/
+    /*top:24px;*/
+    /*left:50px;*/
+    /*background-image: url(stop8.gif);*/
+    /*display:inline-block;*/
 
-}
+/*}*/
 
 #row1 {
     position:relative;

@@ -30,13 +30,13 @@ function sound(key) {
 
 var drawQuarterNote =  function(index) {
 
-    if (index == 1) {
+    if (index == 2) {
 
         $("#bigRow" + row.toString() + ">#row1").append("<div class = 'note4_1'></div>");
 
     }
 
-    if (index == 2) {
+    if (index == 1) {
         $("#bigRow"+row.toString()+">#row2").append("<div class = 'note4_2'></div>");
 
     }
@@ -45,22 +45,22 @@ var drawQuarterNote =  function(index) {
 
 var drawEighthNote =  function(index) {
 
-    if (index == 1) {
+    if (index == 2) {
         $("#bigRow"+row.toString()+">#row1").append("<div class = 'note8_1'></div>");
     }
 
-    if (index == 2) {
+    if (index == 1) {
         $("#bigRow"+row.toString()+">#row2").append("<div class = 'note8_2'></div>");
     }
 
 }
 
 var drawRest = function (index) {
-    if (index == 1) {
+    if (index == 2) {
         $("#bigRow"+row.toString()+">#row1").append("<div class = 'stop4_1'></div>");
     }
 
-    if (index == 2) {
+    if (index == 1) {
         $("#bigRow"+row.toString()+">#row2").append("<div class = 'stop4_2'></div>");
     }
 }
