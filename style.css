@@ -19,12 +19,22 @@
     width : 800px;
     height : 100px;
     background-image: url(row2.png);
-    display: inline-block;
 
+
+    margin:auto;
+    display:block;
+
+
+}
+.screen {
+    /*position:relative;*/
+    /*left:200px;*/
+    margin:auto;
+    display:block;
 }
 
 .note4_1 {
-    width:39px;
+    width:42px;
     height:26px;
     position: relative;
     top:5px;
@@ -35,7 +45,7 @@
 }
 
 .note4_2 {
-    width:39px;
+    width:42px;
     height:26px;
     position: relative;
     top:24px;
@@ -46,23 +56,23 @@
 }
 
 .note8_1 {
-    width:18px;
+    width:41px;
     height:26px;
     position: relative;
     top:5px;
     left:50px;
-    background-image: url(note8_1.png);
+    background-image: url(note8dual1.png);
     display:inline-block;
 
 }
 
 .note8_2 {
-     width:18px;
+     width:41px;
      height:26px;
      position: relative;
      top:24px;
      left:50px;
-     background-image: url(note8_2.png);
+     background-image: url(note8dual2.png);
      display:inline-block;
 
  }
@@ -70,7 +80,7 @@
 
 
 .stop4_1 {
-      width:39px;
+      width:42px;
       height:26px;
       position: relative;
       top:5px;
@@ -81,7 +91,7 @@
   }
 
 .stop4_2 {
-    width:39px;
+    width:42px;
     height:26px;
     position: relative;
     top:24px;
@@ -92,7 +102,7 @@
 }
 
 .stop8_1 {
-    width:18px;
+    width:21px;
     height:26px;
     position: relative;
     top:5px;
@@ -103,7 +113,7 @@
 }
 
 .stop8_2 {
-    width:18px;
+    width:21px;
     height:26px;
     position: relative;
     top:24px;
@@ -112,3 +122,14 @@
     display:inline-block;
 
 }
+
+#row1 {
+    position:relative;
+    left:18px;
+}
+
+#row2 {
+    position:relative;
+    left:18px;
+}
+

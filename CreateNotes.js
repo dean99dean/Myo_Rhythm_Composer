@@ -1,10 +1,7 @@
 var c=document.getElementById("randomCanvas");
 var ctx = c.getContext("2d");
 var ctx2 = c.getContext("2d");
-var x=50;
-var y=50;
-var restx=50;
-var resty=50;
+
 var left=false;
 var right=false;
 var enter=false;
@@ -46,7 +43,7 @@ function draw(){
 				drawEighthNote();
 			}
 			else if(numOfNote==1){
-				drawOneQuarter();
+				drawQuarterNote();
 			}
 			else if(numOfNote==0){
 				drawOneQuarterRest();

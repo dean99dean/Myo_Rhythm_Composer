@@ -14,6 +14,7 @@ input[type=text]{
 #composerName{
 	font-family: "Times New Roman", Times, serif;
 	text-align:right;
+	margin-right:20%;
 }
 #button {
 	-moz-box-shadow: 1px 4px 13px -4px #899599;
@@ -85,4 +86,9 @@ a:link {
 a:visited {
     text-decoration: none;
    	color:#3a8a9e;
+}
+
+.imgs {
+	text-align: center;
+
 }

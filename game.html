@@ -5,20 +5,40 @@
 	<title>EngHack2015</title>
 	<link rel="shortcut icon" href="TrebleClef.png">
 	<link rel="stylesheet" href="sstyle.css">
+	<link rel="stylesheet" href="style.css">
 	<script src="input.js"></script>
 </head>
 <body>
 	<h1 id="TITLE">Myo Rhythm Composer (Drum Kit Edition)</h1>
 	<div class="LuaLink">
-		<input type="text" id="inputTitle" value="Title of the music"></input>
+		<input type="text" id="inputTitle" placeholder="Title of the music"></input>
 		<button onclick="InputTitle()" id="button">Submit</button>
 		<br><br>
-		<input type="text" id="inputComposerName" value="Name of the composer"></input>
+		<input type="text" id="inputComposerName" placeholder="Name of the composer"></input>
 		<button onclick="InputComposerName()" id="button">Submit</button>
 		<h1 id="title"></h1>
 		<h2 id="composerName"></h2>
-		<script src="CreateNotes.js"></script>
+
 	</div>
+	<div class = "container">
+
+	</div>
+	<div class = "screen ">
+		<div id = "scores">
+			<div class = "bigRow" id = "bigRow1">
+				<div id = "row1">
+				</div>
+				<div id = "row2">
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+	<script type ="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src = "control.js"></script>
+
 </body>
 </html>
 	
