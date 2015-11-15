@@ -8,9 +8,9 @@
 
 }
 
-.screen {
+#screen {
     width : 1000px;
-    height : 1280px;
+    /*height : 1280px;*/
 }
 
 
@@ -18,7 +18,7 @@
 .bigRow {
     width : 800px;
     height : 100px;
-    background-image: url(row2.png);
+    background-image: url(../images/row2.png);
 
 
     margin:auto;
@@ -26,7 +26,7 @@
 
 
 }
-.screen {
+#screen {
     /*position:relative;*/
     /*left:200px;*/
     margin:auto;
@@ -39,7 +39,7 @@
     position: relative;
     top:5px;
     left:50px;
-    background-image: url(note4_1.png);
+    background-image: url(../images/note4_1.png);
     display:inline-block;
 
 }
@@ -50,7 +50,7 @@
     position: relative;
     top:24px;
     left:50px;
-    background-image: url(note4_2.png);
+    background-image: url(../images/note4_2.png);
     display:inline-block;
 
 }
@@ -61,7 +61,7 @@
     position: relative;
     top:5px;
     left:50px;
-    background-image: url(note8dual1.png);
+    background-image: url(../images/note8dual1.png);
     display:inline-block;
 
 }
@@ -72,7 +72,7 @@
      position: relative;
      top:24px;
      left:50px;
-     background-image: url(note8dual2.png);
+     background-image: url(../images/note8dual2.png);
      display:inline-block;
 
  }
@@ -85,7 +85,7 @@
       position: relative;
       top:5px;
       left:50px;
-      background-image: url(stop4.png);
+      background-image: url(../images/stop4.png);
       display:inline-block;
 
   }
@@ -96,7 +96,7 @@
     position: relative;
     top:24px;
     left:50px;
-    background-image: url(stop4.png);
+    background-image: url(../images/stop4.png);
     display:inline-block;
 
 }
