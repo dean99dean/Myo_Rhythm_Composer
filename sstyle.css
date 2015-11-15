@@ -1,7 +1,7 @@
 input[type=text]{
 	border-color:#cccccc; 
-	font-size:15px; 
-	border-radius:50px; 
+	font-size:12px; 
+	border-radius:60px; 
 	border-style:inset; 
 	border-width:5px; 
 	padding:1px; 
@@ -47,4 +47,42 @@ input[type=text]{
 #button:active {
 	position:relative;
 	top:1px;
+}
+#Control{
+	font-weight: normal;
+	font-size:15px; 
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+#Description{
+	font-weight: normal;
+	font-size:15px; 
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+#TITLE{
+	font-size:30px; 
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+.LuaLink{
+	text-decoration: none;
+	margin:auto;
+	display:block;
+	text-align:center;
+}
+#PlayButton{
+	font-size:30px; 
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	margin:auto;
+	display:block;
+}
+a:link {
+    text-decoration: none;
+   	color:#3a8a9e;
+}
+a:visited {
+    text-decoration: none;
+   	color:#3a8a9e;
 }
