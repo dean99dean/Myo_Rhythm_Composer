@@ -75,6 +75,8 @@ function onPoseEdge(pose,edge)
 	if edge =="on" then
 		if pose=="waveIn"  then
 			myo.keyboard("return","press")
+			Ystart = myo.getPitch()
+			Zstart = myo.getYaw()
 		end
 	end
 	if edge == "off" then
