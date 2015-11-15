@@ -12,7 +12,9 @@ var shift=false;
 var previousTime;
 var currentTime;
 var timeDifference;
+var numOfNote=0;
 const tempo=60;
+const epsilon=0.1;
 
 function drawNote(){
 	ctx.beginPath();
@@ -28,39 +30,34 @@ function drawRest(){
 	ctx2.fill();
 	ctx2.closePath();
 }
+
 function draw(){
 	var d=new Date();
-	//ctx.clearRect(0, 0, c.width, c.height);
 	if(!enter){
 		previousTime=d.getTime();
 	}
 	if(enter){
+		if(right){numOfNote++;} //if input key p
 		currentTime=d.getTime();
-		timeDifference=currentTime-previousTime;
-		var actualTime=timeDifference*tempo/60*0.001;
-		drawNote();
-		drawRest();
-/*		if(!shift){
-			if(actualTime)
-			if(right){ 
-				if(timeDifference*tempo/60*0.001>0.7){
-					//Add quarter note;
-				}
-				else if(timeDifference*tempo/60*0.001<=0.7 && timeDifference*tempo/60*0.001>=0.2){
-					//Add 
-				}
-				previousTime=currentTime;
+		timeDifference=(currentTime-previousTime)*0.001;
+		var quarterLength=timeDifference*tempo/60*0.001;
+		if(timeDifference<=quarterLength+epsilon && timeDifference>=quarterLength-epsilon){
+			if(numOfNote==2){
+				drawEighthNote();
 			}
-			else if(left){
-
-				previousTime=currentTime;
+			else if(numOfNote==1){
+				drawOneQuarter();
 			}
-			else{
-				restx++;
+			else if(numOfNote==0){
+				drawOneQuarterRest();
 			}
-		}*/
+			previousTime=currentTime;
+			numOfNote=0;
+		}
 	}
 }
+
+
 document.addEventListener("keydown",keyDown,false);
 document.addEventListener("keyup",keyUp,false);
 function keyDown(e){
